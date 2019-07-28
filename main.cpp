@@ -49,6 +49,7 @@ void graph(double a, double b, double c, double d){
 }
 
 int main(){
+  /*
   while(1){
     for(int i = 0; i < 100; i++){
       graph(0, -i * 0.01, 0, 0);
@@ -88,6 +89,7 @@ int main(){
   }
 
   return 0;
+  */
   ioctl(STDOUT_FILENO, TIOCGWINSZ, &terminalSize);
   std::vector<double> values;
 
